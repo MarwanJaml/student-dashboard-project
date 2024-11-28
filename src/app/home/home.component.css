@@ -1,0 +1,127 @@
+/* Table Container */
+
+.center {
+  text-align: center;
+}
+
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 50px;
+
+
+  font-family: Arial, sans-serif;
+}
+
+/* Table Header */
+thead tr {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+/* Table Header Cells */
+thead th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+
+/* Table Data Cells */
+td {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* Center Align Text for Actions Column */
+td:last-child {
+  text-align: center;
+}
+
+/* Search Bar */
+input[type="text"] {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 0px;
+  margin-right: 370px;
+  margin-left: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 0px;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #eeeeee;
+}
+
+button.edit {
+  background-color: #ffc107;
+}
+
+button.edit:hover {
+  background-color: #e0a800;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: 1px solid #007bff;
+  background-color: rgb(255, 255, 255);
+  color: #007bff;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: none;
+}

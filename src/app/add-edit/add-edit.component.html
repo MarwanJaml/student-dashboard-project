@@ -1,0 +1,23 @@
+
+<form  >
+    <p>
+      <label for="nmae">Name</label>
+      <input id="name"  name="name" type="string" [(ngModel)]="enteredName" />
+    </p>
+    <p>
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="string" [(ngModel)]="enteredPhone"/>
+    </p>
+
+    <p>
+      <label for="email">Email</label>
+      <input id="email"  name="email" type="string"[(ngModel)]="enteredEmail"/>
+    </p>
+    <p>
+      <label for="gender">Gender</label>
+      <input id="gender"  name="gender" type="string" [(ngModel)]="enteredGender"/>
+    </p>
+  <p>
+    <button type="submit" (click)="saveStudent()">Save</button>
+  </p>
+</form>
